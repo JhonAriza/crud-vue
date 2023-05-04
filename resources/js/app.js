@@ -17,7 +17,9 @@ const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';app.component('example', ExampleComponent);
 import ArticuloComponent from './components/Articulo.vue';app.component('articulo', ArticuloComponent);
-/**
+import SimpleFetch from './components/SimpleFetch.vue';app.component('simpleFetch', SimpleFetch);
+ 
+ /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
  * components and automatically register them with their "basename".

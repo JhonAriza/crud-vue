@@ -16,8 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/SimpleFetch', function () {
+    return view('SimpleFetch');
+});
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::apiResource('/articulos', App\Http\Controllers\ArticuloController::class);
+ 
