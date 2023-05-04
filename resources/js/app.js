@@ -18,7 +18,7 @@ const app = createApp({});
 import ExampleComponent from './components/ExampleComponent.vue';app.component('example', ExampleComponent);
 import ArticuloComponent from './components/Articulo.vue';app.component('articulo', ArticuloComponent);
 import SimpleFetch from './components/SimpleFetch.vue';app.component('simpleFetch', SimpleFetch);
- 
+import Peliculas from './components/Peliculas.vue';app.component('Peliculas', Peliculas);
  /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue

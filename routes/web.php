@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/SimpleFetch', function () {
     return view('SimpleFetch');
 });
+Route::get('/Movie', function () {
+    return view('Peliculas');
+});
 
 Auth::routes();
 
