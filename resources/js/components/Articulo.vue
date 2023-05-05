@@ -1,7 +1,7 @@
 <template>
-    <div> 
+    <div> <strong>the best</strong>
       <div class="row">
-        <div class="col"></div><strong>the best</strong>
+        <div class="col"></div>
         <div class="col"><h3 class="text-center">Crud Vue Jhon Ariza</h3>  <img  src="img/vuee.png"    srcset=""> </div>
         <div class="col"></div>
       </div>
@@ -56,8 +56,7 @@
           </div>
         </div>
       </div>
-  
-      <table  class="table table-dark table-striped">
+      <table  class="table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
