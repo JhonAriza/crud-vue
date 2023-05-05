@@ -13,7 +13,7 @@ class ArticuloController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
+    { // aca se retorna el articulo
         return Articulo::get();
     }
 
@@ -24,8 +24,10 @@ class ArticuloController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
+    {   //en este metodo lo utilizo para guardar 
+        //le pasa el resquest del nuevo articulo donde va hacer igual al nuevo modelo
         $articulo = new Articulo;
+     // aca se va acrear con todo lo que le pase
         $articulo->create($request->all());
     }
 
@@ -49,7 +51,7 @@ class ArticuloController extends Controller
      */
     public function update(Request $request, Articulo $articulo)
     {
-         
+         // el articulo lo va amodificar con los datos que le pasa en el Request
         $articulo->update($request->all());
     }
 
@@ -61,6 +63,7 @@ class ArticuloController extends Controller
      */
     public function destroy(Articulo $articulo)
     {
-        
+        $articulo->delete();
+        // se le pasa el idi del articulo que se va a eliminar 
     }
 }

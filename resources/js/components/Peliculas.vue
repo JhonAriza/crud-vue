@@ -38,4 +38,20 @@
     }
   }
   </script>
+  <!-- <script>
+  export default {
+    data(){
+      articulos[];
+    }
+  },
+  methods: {
+    async listar (){
+      const res=await axios.get('articulos');
+      this.articulos = articulos.data;
+    }
+  },
+  created(){
+this.listar();
+  }
+    </script> -->
   

@@ -15,6 +15,7 @@ import { createApp } from 'vue';
 
 const app = createApp({});
 
+// se registra el componente 
 import ExampleComponent from './components/ExampleComponent.vue';app.component('example', ExampleComponent);
 import ArticuloComponent from './components/Articulo.vue';app.component('articulo', ArticuloComponent);
 import SimpleFetch from './components/SimpleFetch.vue';app.component('simpleFetch', SimpleFetch);
